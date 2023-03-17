@@ -37,8 +37,9 @@ body {
 }
 
 .top_size img {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
+    filter: grayscale(100%);
 }
 
 #top {
@@ -69,6 +70,7 @@ body {
 #hover_setting img {
     height: 55px;
     width: 55px;
+    
 }
 
 #hover_setting:hover img {
@@ -79,6 +81,120 @@ body {
     width: 830px;
 }
 
+.title__top ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title__top{
+    width: 100%;
+
+}
+
+.title__bottom{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+#background{
+    height: 470px;
+    background-color: whitesmoke;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.activity{
+    background-color: green;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.background__left{
+    height: 40px;
+    width: 160px;
+    background-color: grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title__background{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.title__background button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 36px;
+    border-radius: 5px;
+}
+#list_call{
+    display: flex;
+    justify-content: space-between;
+}
+
+.call{
+    position: relative;
+}
+
+.call img{
+    border-radius: 10px;
+}
+
+.tt_call{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+.act_call{
+    background-color: green;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.tt__left{
+    height: 25px;
+    width: 110px;
+    background-color: gray;
+    border-radius: 3px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call button{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0; 
+    border: none;
+    border-radius: 10px;
+}
+.tt_call img{
+    width: 30px;
+    height: 30px; 
+    margin: 0;
+    padding: 0;  
+}
+
+
 #right {
     width: 450px;
 }
+
+
+
