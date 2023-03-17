@@ -85,15 +85,36 @@ body {
     align-items: center;
 }
 
-.title__top ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.title__top h3{
+    font-size: 23px;
 }
+.title__top div{
+    width: 90px;
+    height: 35px;
+    border: 1px solid red;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    
+}
+.title__top div span:first-child{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
 
 .title__top{
     width: 100%;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title__bottom{
@@ -101,7 +122,35 @@ body {
     width: 40%;
     justify-content: space-between;
 }
+.title__bottom div:first-child div:first-child{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title__bottom div{
+    display: flex;
+    align-items: center;
+}
 
+.title__bottom div:first-child img{
+    width: 10px;
+    height: 10px;
+}
+.title__bottom div:first-child {
+    width: 80px;
+    height: 25px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
 #background{
     height: 470px;
     background-color: whitesmoke;
@@ -144,6 +193,7 @@ body {
 #list_call{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .call{
